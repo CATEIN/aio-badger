@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "AiO Badger",
+  "description": "A web extension for setting AiO profile badge images.",
+  "author": "CATEIN",
+  "version": "1.0",
+  "icons": {
+    "64": "icons/icon64.png"
+  },
+  "permissions": [
+    "webRequest",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://app.adventuresinodyssey.com/*",
+    "https://fotf.my.site.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

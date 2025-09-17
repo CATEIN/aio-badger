@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>AiO Badger</title>
+    <style>
+      body {
+        min-width: 400px;
+        max-height: 600px;
+        background-color: #143776;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+      }
+      h1 {
+        color: #ffffff;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .button {
+        background-color: #178CCA;
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        margin: 10px;
+        font-size: 16px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .button:hover {
+        background-color: #147BAE;
+      }
+      .button:disabled {
+        background-color: #666;
+        cursor: not-allowed;
+      }
+      .profile-section {
+        margin: 20px 0;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+      }
+      .current-profile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+      }
+      .profile-image {
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        margin-right: 15px;
+        border: 2px solid white;
+        object-fit: cover;
+      }
+      .profile-info {
+        text-align: left;
+      }
+      .profile-info h3 {
+        margin: 0;
+        color: #FED817;
+      }
+      .profile-info p {
+        margin: 5px 0;
+        font-size: 14px;
+      }
+      .input-section {
+        margin-top: 20px;
+      }
+      .input-section label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #FED817;
+      }
+      .input-section input {
+        width: 100%;
+        max-width: 350px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 14px;
+      }
+      .loading {
+        color: #FED817;
+        font-style: italic;
+      }
+      .error {
+        color: #ff6b6b;
+        margin: 10px 0;
+      }
+      .badge-gallery {
+        margin: 20px 0;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+      }
+      .badge-gallery h3 {
+        color: #FED817;
+        margin: 0 0 15px 0;
+        font-size: 16px;
+      }
+      .badge-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        max-height: 200px;
+        overflow-y: auto;
+        padding: 5px;
+      }
+      .badge-item {
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+        border: 2px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        object-fit: cover;
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+      .badge-item:hover {
+        border-color: #FED817;
+        transform: scale(1.05);
+      }
+      .badge-item.selected {
+        border-color: #FED817;
+        box-shadow: 0 0 10px rgba(254, 216, 23, 0.5);
+      }
+      .load-more-btn {
+        background-color: #666;
+        padding: 8px 16px;
+        font-size: 12px;
+        margin-top: 10px;
+        display: none; /* Hide since we're using infinite scroll */
+      }
+      /* Toast notification styling */
+      #toast {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-size: 14px;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        z-index: 1000;
+        max-width: 300px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AiO Badger</h1>
+
+    <div id="profileContainer" class="profile-section">
+      <div class="loading">Loading profile information...</div>
+    </div>
+
+    <div class="badge-gallery">
+      <h3>Available Badge Images</h3>
+      <div id="badgeContainer" class="badge-grid">
+        <div class="loading">Loading available images...</div>
+      </div>
+    </div>
+
+    <div class="input-section">
+      <label for="imageUrlInput">Or enter badge image URL:</label>
+      <input type="url" id="imageUrlInput" placeholder="https://d23sy43gbewnpt.cloudfront.net/public/images/badge/" />
+      <button class="button" id="updateImageBtn" disabled>Update Profile Image</button>
+    </div>
+
+    <div class="button-row">
+      <button class="button" id="refreshBtn">Refresh Profile</button>
+    </div>
+
+    <div id="toast"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
