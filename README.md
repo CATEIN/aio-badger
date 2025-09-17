@@ -1,2 +1,2 @@
 # AiO Badger
-A Web Extension for setting badge profile images on app.adventuresinodyssey.com
+A Web Extension for setting profile images to badges on app.adventuresinodyssey.com
