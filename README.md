@@ -15,5 +15,9 @@ These are all the secret badges I have found so far
 |Chicago Hero Medal |a2pUh0000007gH3IAI |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/daring_deeds_(waylaid)_badge.png |
 |Lost Fish Scale |a2pUh0000007gKHIAY |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/fish_scale_badge.png |
 |YAK GO AWAY! |a2pUh0000007h1pIAA |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/yak_go_away_button_badge.png |
+| |Unknown |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/aio_1000th_art_logo.png |
+| |Unknown |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/bart_for_mayor_button_badge.png |
+| | | |
+| | | |
 | | | |
 | | | |
