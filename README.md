@@ -18,7 +18,7 @@ These are all the secret badges I have found so far
 |Bart for Mayor! |a2pUh0000007g49IAA |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/bart_for_mayor_button_badge.png |
 |Zappazoids High Score! |a2pUh0000007h3RIAQ |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/zappazoids_starship_pin.png |
 |One Grand Party! |a2pUh00000050DtIAI |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/aio_1000th_art_logo.png |
-| | | |
+|Applesauce Trustee |a2pUh00000050AfIAI |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/applesauce_badge.png |
 | | | |
 | | | |
 
