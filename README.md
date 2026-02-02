@@ -20,5 +20,6 @@ These are all the secret badges I have found so far
 |One Grand Party! |a2pUh00000050DtIAI |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/aio_1000th_art_logo.png |
 |Applesauce Trustee |a2pUh00000050AfIAI |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/applesauce_badge.png |
 |Laptop Aquired! |a2pUh00000050CHIAY |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/waylaid_in_the_windy_city_laptop.png |
+|The Strataflyer Badge |a2pUh0000007gnJIAQ |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/strata-flyer_enamel_pin.png |
 | | | |
 
