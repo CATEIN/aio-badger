@@ -21,5 +21,8 @@ These are all the secret badges I have found so far
 |Applesauce Trustee |a2pUh00000050AfIAI |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/applesauce_badge.png |
 |Laptop Aquired! |a2pUh00000050CHIAY |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/waylaid_in_the_windy_city_laptop.png |
 |The Strataflyer Badge |a2pUh0000007gnJIAQ |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/strata-flyer_enamel_pin.png |
+|Ryan for Mayor! |a2pUh0000007gc1IAA |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/ryan_cummings_kidsboro_mayor_button_badge.png |
+|Valerie for Mayor! |a2pUh0000007h0DIAQ |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/valerie_swanson_kidsboro_mayor_button_badge.png |
 | | | |
+
 
