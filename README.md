@@ -25,6 +25,7 @@ These are all the secret badges I have found so far
 |Valerie for Mayor! |a2pUh0000007h0DIAQ |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/valerie_swanson_kidsboro_mayor_button_badge.png |
 |Camp-What-A-Nut Veteran |a2pUh0000007gDpIAI |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/camp_what_a_nut_badge.png |
 |The Silverwind Restaurant |a2pUh0000007gk5IAA |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/silverwind_restaurant_with_blue_shadow_badge.png |
+|The Paul Revere Badge |a2pUh0000007gQjIAI |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/paul_revere_badge_pin.png |
 | | | |
 
 
