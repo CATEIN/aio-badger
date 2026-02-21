@@ -26,6 +26,7 @@ These are all the secret badges I have found so far
 |Camp-What-A-Nut Veteran |a2pUh0000007gDpIAI |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/camp_what_a_nut_badge.png |
 |The Silverwind Restaurant |a2pUh0000007gk5IAA |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/silverwind_restaurant_with_blue_shadow_badge.png |
 |The Paul Revere Badge |a2pUh0000007gQjIAI |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/paul_revere_badge_pin.png |
+|Tom for Mayor Button! |a2pUh0000007govIAA |https://d23sy43gbewnpt.cloudfront.net/public/images/badge/tom_for_mayor_button_badge.png |
 | | | |
 
 
